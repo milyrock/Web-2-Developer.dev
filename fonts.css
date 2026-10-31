@@ -1,0 +1,8 @@
+/* The same fonts and weights used in the Figma file. Stored locally. */
+@font-face { font-family: Panchang; src: url('assets/fonts/panchang-light.woff2') format('woff2'); font-weight: 200; font-display: swap; }
+@font-face { font-family: Panchang; src: url('assets/fonts/panchang-regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: Panchang; src: url('assets/fonts/panchang-semibold.woff2') format('woff2'); font-weight: 600; font-display: swap; }
+@font-face { font-family: Panchang; src: url('assets/fonts/panchang-bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: Inter; src: url('assets/fonts/inter-regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
+@font-face { font-family: Inter; src: url('assets/fonts/inter-medium.ttf') format('truetype'); font-weight: 500; font-display: swap; }
+@font-face { font-family: Inter; src: url('assets/fonts/inter-semibold.ttf') format('truetype'); font-weight: 600; font-display: swap; }

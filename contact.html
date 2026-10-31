@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Alex to discuss your project.">
+  <title>Contact us — developer.dev</title>
+  <link rel="icon" href="assets/figma/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="site">
+  <main class="contact" id="main">
+    <section class="contact__main dark" aria-labelledby="contact-title">
+      <a class="contact__close" href="index.html" aria-label="Close contact page and return home"></a>
+      <h1 class="contact__title" id="contact-title">Let’s solve something awesome together!</h1>
+      <p class="contact__availability">I’m Currently - <strong>Available!</strong></p>
+      <form class="contact-form" action="contact.html" method="post">
+        <div class="contact-form__field"><label class="contact-form__label" for="full-name">Full Name</label><input class="contact-form__input contact-form__input_name" type="text" id="full-name" name="name" autocomplete="name" placeholder="Al Razi Siam" required></div>
+        <div class="contact-form__field"><label class="contact-form__label" for="company">Your Company Name (optional)</label><input class="contact-form__input" type="text" id="company" name="company" autocomplete="organization" placeholder="Underrrated"></div>
+        <div class="contact-form__field"><label class="contact-form__label" for="email">Your Email Address</label><input class="contact-form__input contact-form__input_email" type="email" id="email" name="email" autocomplete="email" placeholder="siam.alrazi86@gmail.com" required></div>
+        <div class="contact-form__field"><label class="contact-form__label" for="message">Please tell us a bit about your project</label><textarea class="contact-form__input contact-form__input_message" id="message" name="message" rows="6" placeholder="How users engage with the content on your website is crucial to your business. User experience is important because it tries to fulfill the user’s needs. It aims to provide positive experiences that keep a user loyal to your product. Additionally, a meaningful user experience allows you to define customer journeys on your product that are most conducive to business success." required></textarea></div>
+        <button class="contact-form__submit" type="submit">Submit</button>
+        <p class="contact-form__status" id="demo-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <aside class="contact__aside" aria-label="Direct contact information">
+      <p class="contact__email-label">Or write me an email directly</p>
+      <a class="contact__email" href="mailto:info@alex.dev">info@alex.<br>dev</a>
+      <address class="contact__phone"><p class="contact__phone-title">Phone</p><p class="contact__numbers"><a href="tel:+0121234457950">+012 123 4457 950</a><br><a href="tel:+0121234457990">+012 123 4457 990</a></p></address>
+      <a href="mailto:info@alex.dev"><img class="contact__socials" src="assets/figma/socials-contact.svg" width="220" height="40" alt="Skype, WhatsApp, Facebook and LinkedIn contact icons"></a>
+    </aside>
+    <section class="studio" aria-labelledby="studio-title">
+      <div class="studio__intro">
+        <div><h2 class="studio__title" id="studio-title">My New York studio</h2><p class="studio__text">I work from a small studio in New York City. Let’s meet by appointment to discuss your next project.</p></div>
+        <address class="studio__address">350 Fifth Avenue<br>New York, NY 10118, USA<br><a href="https://www.google.com/maps/search/?api=1&amp;query=350%20Fifth%20Avenue%2C%20New%20York%2C%20NY%2010118">Open in Google Maps ↗</a></address>
+      </div>
+      <iframe class="studio__map" title="Map of the example studio address at 350 Fifth Avenue, New York" src="https://maps.google.com/maps?q=350%20Fifth%20Avenue%2C%20New%20York%2C%20NY%2010118&amp;z=16&amp;output=embed" width="1376" height="430" loading="lazy" referrerpolicy="no-referrer" allowfullscreen></iframe>
+      <p class="studio__note">Example studio location for this college project, not an actual business address. The interactive map requires an internet connection.</p>
+    </section>
+  </main>
+</div>
+</body>
+</html>
